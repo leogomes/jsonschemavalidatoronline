@@ -16,8 +16,8 @@ exports.index = function(req, res) {
  */
 exports.validate = function(req, res) {
 
-	var schema = req.param('json-schema-source');
-	var json = req.param('json-source');
+	var schema = req.param('schema');
+	var json = req.param('json');
 
 	var env = JSV.createEnvironment();
 	var report = env.validate(json, schema);
