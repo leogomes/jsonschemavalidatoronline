@@ -65,7 +65,19 @@
   		<div id="json-schema-source" class="span6">
 	  		<div class="editorArea">
 	    		<textarea id="schema" style="display: none; ">
-// CodeMirror2 rocks!
+{
+	"type":"object",
+	"$schema": "http://json-schema.org/draft-03/schema",
+	"id": "#",
+	"required":true,
+	"properties":{
+		"tata": {
+			"type":"string",
+			"id": "tata",
+			"required":true
+		}
+	}
+}
 	    		</textarea>
 	  		</div>
   		</div>
@@ -73,7 +85,9 @@
   		<div id="json-source" class="span6">
   	  		<div class="editorArea">
     			<textarea id="json" style="display: none; ">
-// JSON rocks!
+{
+  "tata": 	"toto"
+}
     			</textarea>
   			</div>
   		</div>
@@ -93,16 +107,7 @@
 		 </div>
 	 </div>
 -->
-
- 	 <div class="row">
-		 <div class="alert alert-success span6">
-	  		<button type="button" class="close" data-dismiss="alert">×</button>
-	  		<strong>Good job!</strong> Your JSON is valid.
-		 </div>
-	 </div>
-
-
-
+ 	 <div id="resultMessage" class="row"></div>
 
     </div> <!-- /container -->
     <script src="js/jsv-online.js"></script>
