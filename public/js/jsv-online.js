@@ -13,8 +13,8 @@ schemaEditor.focus();
 $('button[data-action=validate]').bind('click', function () {
   $.get("validate", 
   		{ 
-  			schema : $('#schema')[0].value, 
-  			json : $('#json')[0].value 
+  			schema : schemaEditor.getValue(" "),
+  			json : jsonEditor.getValue(" ")
   		},
 			function(data){
 				console.log(data);

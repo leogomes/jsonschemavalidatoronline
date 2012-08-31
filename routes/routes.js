@@ -16,8 +16,8 @@ exports.index = function(req, res) {
  */
 exports.validate = function(req, res) {
 
-	var schema = req.param('schema');
-	var json = req.param('json');
+	var schema = JSON.parse(req.param('schema'));
+	var json = JSON.parse(req.param('json'));
 
 	var env = JSV.createEnvironment();
 	var report = env.validate(json, schema);
@@ -35,8 +35,8 @@ exports.validate = function(req, res) {
 
 
 	res.send({
-		schema: schema,
-		json: json,
+		// schema: schema,
+		// json: json,
 		isValid: valid,
 		message: report.errors
 	});
