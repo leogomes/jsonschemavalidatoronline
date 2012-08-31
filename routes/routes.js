@@ -35,13 +35,10 @@ exports.validate = function(req, res) {
 
 
 	res.send({
-		// schema: schema,
-		// json: json,
+		schema: schema,
+		json: json,
 		isValid: valid,
 		message: report.errors
 	});
 
-	// jsv.validate (source, schema);
-	// sucess -> res.render('validation', { result : 'success' });
-	// error -> res.render('validation', { result : 'error', message : errorMsg });
 };
