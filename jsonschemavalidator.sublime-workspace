@@ -11,7 +11,63 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 789,
+				"buffer_size": 835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/testRoutes.js",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/bootstrap.html",
+			"settings":
+			{
+				"buffer_size": 2812,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/jsv-online.js",
+			"settings":
+			{
+				"buffer_size": 1343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/jsv-online.css",
+			"settings":
+			{
+				"buffer_size": 284,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,19 +75,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 284.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"packa",
 				"Package Control: Install Package"
 			],
 			[
 				"",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
 				"Package Control: Install Package"
 			],
 			[
@@ -51,7 +107,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -68,11 +124,20 @@
 	},
 	"file_history":
 	[
-		"/Users/lgomes/github/leogomes.github.com/readme.md",
-		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
-		"/Users/lgomes/github/jsonschema-validator-online/routes/index.js",
-		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/lgomes/github/jsonschema-validator-online/routes/routes.js",
+		"/Users/lgomes/github/jsonschema-validator-online/runtests",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/User/Default (Linux).sublime-keymap",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
 		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/lgomes/github/jsonschema-validator-online/public/img/glyphicons-halflings.png",
+		"/Users/lgomes/github/jsonschema-validator-online/routes/validate.js",
+		"/Users/lgomes/github/leogomes.github.com/readme.md",
+		"/Users/lgomes/github/jsonschema-validator-online/routes/index.js",
 		"/Users/lgomes/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
 		"/Users/lgomes/github/jsonschema-validator-online/Procfile",
 		"/Users/lgomes/github/jsonschema-validator-online/app.js",
@@ -90,6 +155,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -97,6 +163,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cmd + a",
+			"cmd+a",
+			"view",
+			"paraibano"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -114,7 +184,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -122,15 +192,15 @@
 					"file": "app.js",
 					"settings":
 					{
-						"buffer_size": 789,
+						"buffer_size": 835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								428,
+								428
 							]
 						],
 						"settings":
@@ -138,6 +208,194 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/testRoutes.js",
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/bootstrap.html",
+					"settings":
+					{
+						"buffer_size": 2812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2625,
+								2625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1103.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/jsv-online.js",
+					"settings":
+					{
+						"buffer_size": 1343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1288,
+								1288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "readme.md",
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/css/jsv-online.css",
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -154,7 +412,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -179,9 +437,13 @@
 		]
 	},
 	"menu_visible": true,
+	"output.jslint_result_view":
+	{
+		"height": 136.0
+	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -189,6 +451,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"views/bootstrap.html"
+			]
 		],
 		"width": 0.0
 	},
@@ -204,6 +470,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.04296875,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true
 }

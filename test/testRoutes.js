@@ -28,7 +28,7 @@ var schema = {
 };
 
 var json = {
-  "tata": "toto"
+  "tata": 	"toto"
 };
 
 exports.testValidate = function(test) {
