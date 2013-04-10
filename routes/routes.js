@@ -23,22 +23,15 @@ exports.validate = function(req, res) {
 	var report = env.validate(json, schema);
 	
 	var valid = false;
-	var msg;
 
-	if (report.errors.length === 0) {
-		//JSON is valid against the schema
-		valid = true;
-	} else {
-		valid = false;
-		msg = report.errors.message;
-	}
+	valid = (report.errors.length === 0);
 
 
 	res.send({
 		schema: schema,
 		json: json,
 		isValid: valid,
-		message: report.errors
+		errors: report.errors
 	});
 
 };

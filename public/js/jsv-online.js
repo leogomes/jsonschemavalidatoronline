@@ -11,6 +11,7 @@ schemaEditor.focus();
 //schemaEditor.setSelection({ line : 0, ch : 0}, {line : 0, ch : 23});
 
 var processResult = function( data ){
+
 	if (data.isValid) {
 		$('#resultMessage').html("<div class='alert alert-success span6'>" +
 			"<button type='button' class='close' data-dismiss='alert'>×</button>" +
@@ -18,9 +19,17 @@ var processResult = function( data ){
 		//.html("&lt;div class=&quot;alert alert-success span6&quot;&gt;<br/>	  		&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&#x00d7;&lt;/button&gt;<br/>	  		&lt;strong&gt;Good job!&lt;/strong&gt; Your JSON is valid.<br/>		 &lt;/div&gt;");
 
 	} else {
-		$('#resultMessage').html("<div class=\"alert alert-error span6\">" +
+		var errorMsg = "<div class=\"alert alert-error span6\">" +
 	  		"<button type=\"button\" class=\"close\" data-dismiss=\"alert\">×</button>" +
-	  		"<strong>Warning!</strong> Better check your JSON.</div>");
+	  		"<strong>Warning!</strong> Better check your JSON.<br/><br/> ";
+
+	  	for (var i in data.errors) {
+	  		var item = data.errors[i];
+	  		errorMsg += "> " + item.message + " - " + item.schemaUri + "<br/>";
+	  	}
+
+
+		$('#resultMessage').html( errorMsg + "</div>");
 	}
 
 };
